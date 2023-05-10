@@ -1,559 +1,406 @@
-
 <!DOCTYPE html>
 <html lang="es-CL">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="/assets/fontawesome-free-5.15.4-web/css/all.min.css">
-    <link rel="stylesheet" href="/slick-1.8.1/slick/slick.css">
-   
-    <title>Soluciones Roboticas</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="/assets/fontawesome-free-5.15.4-web/css/all.min.css" />
+    <link rel="stylesheet" href="/slick-1.8.1/slick/slick.css" />
 
+    <title>Soluciones Roboticas</title>
+  </head>
+  <body>
     <header>
-        <div class="header-contacto">
-            <div class="email-number-header">
-                <div>
-                 <a href="">
-                     <i class="fas fa-envelope" style="margin-right: 10px;"></i>INFO@MAIL.COM 
-                </a> 
-                </div>
-                <div>
-                    <a href="">
-                        <i class="fas fa-phone-alt" style="margin-right: 10px;"></i> + 56 2 2663 5
-                    </a>
-                </div>
-            </div>
-            <div class="socials-header">
-                <div>
-                    <a href="">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </div>
-                <div>
-                   <a href="">
-                       <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </div>
+      <!-- <div class="header-contacto">
+        <div class="email-number-header">
+          <div>
+            <a href=""> <i class="fas fa-envelope" style="margin-right: 10px"></i>INFO@MAIL.COM </a>
+          </div>
+          <div>
+            <a href="">
+              <i class="fas fa-phone-alt" style="margin-right: 10px"></i> + 56 2 2663 5
+            </a>
+          </div>
         </div>
+        <div class="socials-header">
+          <div>
+            <a href="">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div> -->
     </header>
     <nav class="navigation-menu">
-       <div class="logo-empresa">
-          <a href=""><img src="/assets/img/logomirs-header.svg" alt="MIRS"></a> 
-       </div> 
-       <div class="desktop-links">
-           <div class="links-header">
-               <ul>
-                   <li><a href="">Soluciones Robóticas</a></li>
-                   <li><a href="">Servicios</a></li>
-                   <li><a href="">Contacto</a></li>
-                 
-               </ul>
-           </div>
-
-           <div class="burger">
-            <div class="container" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-              </div>
-           </div>
-
-           <div class="menu-modal">
-            <div class="menu-modal-container">
-                <ul>
-                    <li><a href="">Acerca de Mirs <i class="fas fa-chevron-right"></i></a></li>
-                    <li><a href="">Noticias <i class="fas fa-chevron-right"></i></a></li>
-                    <li><a href="">Centro de desarrollo Robótico <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="item-menu-mobile"><a href="">Soluciones Robóticas <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="item-menu-mobile"><a href="">Servicios <i class="fas fa-chevron-right"></i></a></li>
-                    <li class="item-menu-mobile"><a href="">Contacto <i class="fas fa-chevron-right"></i> </a></li>
-                </ul>
-            </div>
+      <div class="logo-empresa">
+        <a href="/home.html"><img src="/assets/img/logomirs-header.svg" alt="MIRS" /></a>
+      </div>
+      <div class="desktop-links">
+        <div class="links-header">
+          <ul>
+            <li><a href="/soluciones-roboticas.html">Soluciones Robóticas</a></li>
+            <li><a href="/mirs-service.html">Servicios</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+          </ul>
         </div>
-       </div>
+
+        <div class="burger">
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+
+        <div class="menu-modal">
+          <div class="menu-modal-container">
+            <ul>
+              <li>
+                <a href="/filosofia-mirs.html"
+                  >Acerca de Mirs <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="/noticias.html">Noticias <i class="fas fa-chevron-right"></i></a>
+              </li>
+              <!-- <li>
+                  <a href="/"
+                    >Centro de desarrollo Robótico <i class="fas fa-chevron-right"></i
+                  ></a>
+                </li> -->
+              <li>
+                <a href="/carrers.html"
+                  >Trabaja con nosotros <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li class="item-menu-mobile">
+                <a href="/soluciones-roboticas.html"
+                  >Soluciones Robóticas <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li class="item-menu-mobile">
+                <a href="/mirs-service.html">Servicios <i class="fas fa-chevron-right"></i></a>
+              </li>
+              <li class="item-menu-mobile">
+                <a href="/contacto.html">Contacto <i class="fas fa-chevron-right"></i> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
     <main>
-        <section>
-            <div class="banner-principal slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1423px;"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1423px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"><div><div class="banner-item" style="width: 100%; display: inline-block;">
-                        <div class="img-banner-principal">
-                                                <video width="100%" height="100%" autoplay="" muted="" loop="" poster="https://mirsrobotics.com/wp-content/uploads/2021/12/imagen-banner-principal-2.png" playsinline="">
-                            <source src="https://mirsrobotics.com/wp-content/uploads/2022/02/Banner-Laminas-Iniciales-Video-1.mp4" type="video/mp4">
-                            <source src="movie.ogg" type="video/ogg">
-                           
-                        </video>
-                         
-                        </div> 
-                        <div class="texto-banner-principal">
-                            <h1>
-                                Soluciones Robóticas para la Minería e Industria Pesada                            </h1>
-                                                    </div>
-                    </div></div></div></div></div></div>
-        </section>
-        <section>
-            <article>
-                <div class="menu-banner-principal-noticias">
-                   <ul class="categoria-noticias">
-                       <li><a href="" class="active">    
-                            Todos</a></li>
-                       <li><a href="https://mirsrobotics.com/categorias_soluciones_roboticas/mina/">Mina</a></li><li><a href="https://mirsrobotics.com/categorias_soluciones_roboticas/concentradora/">Concentradora</a></li><li><a href="https://mirsrobotics.com/categorias_soluciones_roboticas/refineria/">Refinería</a></li><li><a href="https://mirsrobotics.com/categorias_soluciones_roboticas/fundicion/">Fundición</a></li>                   </ul>
-                </div>
-            </article>
+      <section>
+        <div class="banner-principal">
+          <div class="banner-item">
+            <div class="img-banner-principal">
+              <video
+                width="100%"
+                height="100%"
+                autoplay
+                muted
+                loop
+                poster="/assets/img/imagen-banner-principal.png"
+                playsinline
+              >
+                <source src="/assets/img/Banner-Laminas-Iniciales-Video-1.mp4" type="video/mp4" />
 
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="texto-banner-principal">
+              <h1>Soluciones Robóticas para la Minería e Industria Pesada</h1>
+              <a href="" class="cta-button"> Ir a soluciones </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <article>
+          <div class="menu-banner-principal-noticias">
+            <ul class="categoria-noticias">
+              <li><a href="" class="active"> Todos</a></li>
+              <li>
+                <a href="">Mina</a>
+              </li>
+              <li>
+                <a href="">Concentradora</a>
+              </li>
+              <li>
+                <a href="">Refinería</a>
+              </li>
+              <li>
+                <a href="">Fundición</a>
+              </li>
+            </ul>
+          </div>
+        </article>
 
-
-                        <article>
-                <div class="contenedor">
-                    <div class="contenedor-soluciones">
-
-
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/soluciones-roboticas-para-la-mineria-e-industria-pesada/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2021/12/Main-1.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica de Láminas Iniciales                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/mirs-aquabot-lavado-de-camiones-de-extraccion/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/02/Main-G-Aquabot-Home.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            MIRS Aquabot Lavado De Camiones De Extracción                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/tomador-robotico-de-muestras-de-concentrado-en-camiones/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/01/Main-2-1.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Tomador Robótico de Muestras de Concentrado en Camiones                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/tomador-robotico-de-muestras-en-maxisacos/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/01/Main-3-1.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Tomador Robótico de Muestras en Maxisacos                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/robot-pulidor-de-placas-base/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/01/Main-1-1.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Robot Pulidor de Placas Base                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/robot-para-apertura-y-cierre-de-pasajes-en-hornos-de-fusion/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/01/Main-2.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Robot Para Apertura y Cierre de Pasajes en Hornos de Fusión                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/manipulador-robotico-de-palmetas-de-trommel/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/01/Main-2-2.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Manipulador Robótico de Palmetas de Trommel                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/cambio-de-revestimiento-robotizado/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/01/Main.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Manipulador Robótico de Cambio de Revestimientos de Molinos                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                                        <a href="https://mirsrobotics.com/soluciones-roboticas/17936/" <div="" class="card-soluciones">
-                            <div class="frontal">
-                                <img src="https://mirsrobotics.com/wp-content/uploads/2022/01/Main-1.jpg" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica de Cátodos                                        </h3>
-                                </div>
-                            </div>
-                        </a>
-                    
-
-
+        <article>
+          <div class="contenedor">
+            <div class="contenedor-soluciones">
+              <a href="/producto.html">
+                <div class="card-soluciones">
+                  <div class="frontal">
+                    <img src="/assets/img/imagen-caso-de-proyecto.png" alt="" />
+                    <div class="texto-frontal-solucion">
+                      <h3>Despegadora Robótica de Láminas Iniciales</h3>
                     </div>
+                  </div>
                 </div>
-            </article>
+              </a>
 
-        </section>
+              <a href="/producto.html">
+                <div class="card-soluciones">
+                  <div class="frontal">
+                    <img src="/assets/img/imagen-caso-de-proyecto.png" alt="" />
+                    <div class="texto-frontal-solucion">
+                      <h3>Despegadora Robótica de Láminas Iniciales</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="/producto.html">
+                <div class="card-soluciones">
+                  <div class="frontal">
+                    <img src="/assets/img/imagen-caso-de-proyecto.png" alt="" />
+                    <div class="texto-frontal-solucion">
+                      <h3>Despegadora Robótica de Láminas Iniciales</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="/producto.html">
+                <div class="card-soluciones">
+                  <div class="frontal">
+                    <img src="/assets/img/imagen-caso-de-proyecto.png" alt="" />
+                    <div class="texto-frontal-solucion">
+                      <h3>Despegadora Robótica de Láminas Iniciales</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="/producto.html">
+                <div class="card-soluciones">
+                  <div class="frontal">
+                    <img src="/assets/img/imagen-caso-de-proyecto.png" alt="" />
+                    <div class="texto-frontal-solucion">
+                      <h3>Despegadora Robótica de Láminas Iniciales</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="/producto.html">
+                <div class="card-soluciones">
+                  <div class="frontal">
+                    <img src="/assets/img/imagen-caso-de-proyecto.png" alt="" />
+                    <div class="texto-frontal-solucion">
+                      <h3>Despegadora Robótica de Láminas Iniciales</h3>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="/producto.html">
+                <div class="card-soluciones">
+                  <div class="frontal">
+                    <img src="/assets/img/imagen-caso-de-proyecto.png" alt="" />
+                    <div class="texto-frontal-solucion">
+                      <h3>Despegadora Robótica de Láminas Iniciales</h3>
+                    </div>
+                  </div>
+                  <!-- <div class="trasero">
+                  <h3>Despegadora Robótica de Cátodos</h3>
+                  <a href="" class="cta-button-solucion">Ver más</a>
+                </div> -->
+                </div>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
-    <!-- <main>
-        <section>
-            <div class="banner-principal">
-                <div class="banner-item">
-                    <div class="img-banner-principal">
-                        <img src="/assets/img/imagen-banner-principal.png" alt ="banner principal">
-                    </div> 
-                    <div class="texto-banner-principal">
-                        <h1>
-                            Soluciones Robóticas para la Minería e Industria Pesada
-                        </h1>
-                        <a href="" class="cta-button">
-                            Ir a soluciones
-                        </a>
-                    </div>
-                </div>
-
-                <div class="banner-item">
-                    <div class="img-banner-principal">
-                        <img src="/assets/img/imagen-banner-principal.png" alt ="banner principal">
-                    </div> 
-                    <div class="texto-banner-principal">
-                        <h1>
-                            Soluciones Robóticas para la Minería e Industria Pesada
-                        </h1>
-                        <a href="" class="cta-button">
-                            Ir a soluciones
-                        </a>
-                    </div>
-                </div>
-
-                <div class="banner-item">
-                    <div class="img-banner-principal">
-                        <img src="/assets/img/imagen-banner-principal.png" alt ="banner principal">
-                    </div> 
-                    <div class="texto-banner-principal">
-                        <h1>
-                            Soluciones Robóticas para la Minería e Industria Pesada
-                        </h1>
-                        <a href="" class="cta-button">
-                            Ir a soluciones
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <article>
-                <div class="menu-categorias-soluciones">
-                   <ul>
-                       <li><a href="" class="menu-categorias-soluciones-activo">Todos</a></li>
-                       <li><a href="">categoría 1</a></li>
-                       <li><a href="">categoría 2</a></li>
-                       <li><a href="">categoría 3</a></li>
-                   </ul>
-                </div>
-            </article>
-
-            <article>
-                <div class="contenedor">
-                    <div class="contenedor-soluciones">
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-
-                        <div class="card-soluciones">
-                            <div class="frontal">
-                                <img src="/assets/img/imagen-caso-de-proyecto.png" alt="">
-                                <div class="texto-frontal-solucion">
-                                        <h3>
-                                            Despegadora Robótica 
-                                            de Láminas Iniciales
-                                        </h3>
-                                </div>
-                            </div>
-                            <div class="trasero">
-                                <h3>
-                                    Despegadora Robótica 
-                                    de Cátodos
-                                </h3>
-                                <a href="" class="cta-button-solucion">Ver más</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
-    </main> -->
     <footer>
-        <div class="footer-nav">
-            <div class="logo-y-redes-container">
-                <div class="logo-empresa-footer">
-                    <img src="/assets/img/logomirsfooter.svg" alt="">
-                </div>
-                <div class="redes-sociales-footer">
-                    <a href="">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="menu-footer">
-                <h4>SOLUCIONES</h4>
-                <ul>
-                    <li><a href="">Soluciones robóticas</a></li>
-                    <li><a href="">Servicios</a></li>
-                </ul>
-            </div>
-            <div class="menu-footer">
-                <h4>SOBRE MIRS</h4>
-                <ul>
-                    <li><a href="">Nuestro equipo</a></li>
-                    <li><a href="">Compliance</a></li>
-                    <li><a href="">Clientes</a></li>
-                    <li><a href="">Oficinas</a></li>
-                </ul>
-            </div>
-            <div class="menu-footer">
-                <h4>Chile</h4>
-                <ul>
-                    <li><a href="">info@form.com</a></li>
-                    <li><a href="">+ 56 2 2663 5700</a></li>
-                    <li><a href="">Av Presidente Kennedy 6660</a></li>
-                </ul>
-            </div>
-            <div class="menu-footer">
-                <ul>
-                    <li>Perú</li>
-                    <li>Australía</li>
-                    <li>Germany</li>
-                    <li>Estados Unidos</li>
-                </ul>
-            </div>
-            
+      <div class="footer-nav">
+        <div class="logo-y-redes-container">
+          <div class="logo-empresa-footer">
+            <img src="/assets/img/logomirsfooter.svg" alt="" />
+          </div>
+          <div class="redes-sociales-footer">
+            <a href="">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
         </div>
-        <div class="footer-copyright">
-            <div class="terminos-y-condiciones" id="terminos-y-condiciones">
-                <p><a href="">Términos y Condiciones</a></p>
-            </div>
-                <div class="modal-terminos">
-               
-                    <div class="modal-mensaje-terminos">
-                        <a href="" class="close">X</a>
-                        <h3>
-                            POLÍTICA DE PRIVACIDAD
-                        </h3>
-                        <p>El presente Política de Privacidad establece los términos en que MIRS ROBOTICS SOLUTION S.A. usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios. </p>
-                        
-                        <h4>INFORMACIÓN QUE ES RECOGIDA</h4>
-                        <p>
-                            Nuestro sitio web podrá recoger información personal por ejemplo: Nombre, información de contacto como su dirección de correo electrónica e información demográfica. Así mismo cuando sea necesario podrá ser requerida información específica para procesar algún pedido o realizar una entrega o facturación.
-                        </p> 
-
-                        <h4>USO DE LA INFORMACIÓN RECOGIDA</h4>
-                        <p>
-                            Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de pedidos en caso que aplique, y mejorar nuestros productos y servicios. Es posible que sean enviados correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales, nuevos productos y otra información publicitaria que consideremos relevante para usted o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la dirección que usted proporcione y podrán ser cancelados en cualquier momento.</p>
-
-                        <p>
-                            MIRS ROBOTICS SOLUTION S.A. está altamente comprometido para cumplir con el compromiso de mantener su información segura. Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.
-                        </p>
-
-                        <h4>COOKIES</h4>
-                        <p>
-                            Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie sirve entonces para tener información respecto al tráfico web, y también facilita las futuras visitas a una web recurrente. Otra función que tienen las cookies es que con ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor servicio personalizado de su web.
-                        </p>
-                        <p>
-                            Nuestro sitio web emplea las cookies para poder identificar las páginas que son visitadas y su frecuencia. Esta información es empleada únicamente para análisis estadístico y después la información se elimina de forma permanente. Usted puede eliminar las cookies en cualquier momento desde su ordenador. Sin embargo las cookies ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a información de su ordenador ni de usted, a menos de que usted así lo quiera y la proporcione directamente, visitas a una web . Usted puede aceptar o negar el uso de cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues sirve para tener un mejor servicio web. También usted puede cambiar la configuración de su ordenador para declinar las cookies. Si se declinan es posible que no pueda utilizar algunos de nuestros servicios.
-                        </p>
-                        <h4>ENLACES A TERCEROS</h4>
-                        <p>
-                            Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas.
-                        </p>
-                        <h4>CONTROL DE SU INFORMACIÓN PERSONAL</h4>
-
-                        <p>
-                            En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a nuestro sitio web. Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico. En caso de que haya marcado la opción de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento.
-                        </p>
-                        <p>
-                            Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.
-                        </p>
-                        <p>
-                            MIRS ROBOTICS SOLUTION S.A. Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
-                        </p>
-                    </div>
-            
-            </div>
-            <div class="copyright">
-                <p>©2021 - MIRS ROBOTICS |   All right reserved</p>
-
-            </div>
+        <div class="menu-footer">
+          <h4>SOLUCIONES</h4>
+          <ul>
+            <li><a href="/soluciones-roboticas.html">Soluciones robóticas</a></li>
+            <li><a href="/mirs-service.html">Servicios</a></li>
+          </ul>
         </div>
+        <div class="menu-footer">
+          <h4>SOBRE MIRS</h4>
+          <ul>
+            <li><a href="/filosofia-mirs.html">Filosofia MIRS</a></li>
+            <li><a href="/nuestras-oficinas.html">Oficinas MIRS</a></li>
+            <li><a href="/clientes.html">Clientes</a></li>
+            <li><a href="/compliance.html">Compliance</a></li>
+          </ul>
+        </div>
+        <div class="menu-footer">
+          <h4>Chile</h4>
+          <ul>
+            <li><a href="">info@form.com</a></li>
+            <li><a href="">+ 56 2 2663 5700</a></li>
+            <li><a href="">Av Presidente Kennedy 6660</a></li>
+          </ul>
+        </div>
+        <div class="menu-footer">
+          <ul>
+            <li>Perú</li>
+            <li>Australía</li>
+            <li>Germany</li>
+            <li>Estados Unidos</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="terminos-y-condiciones" id="terminos-y-condiciones">
+          <p><a href="">Términos y Condiciones</a></p>
+        </div>
+        <div class="modal-terminos">
+          <div class="modal-mensaje-terminos">
+            <a href="" class="close">X</a>
+            <h3>POLÍTICA DE PRIVACIDAD</h3>
+            <p>
+              El presente Política de Privacidad establece los términos en que MIRS ROBOTICS
+              SOLUTION S.A. usa y protege la información que es proporcionada por sus usuarios al
+              momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de
+              los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal
+              con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará
+              de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad
+              puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos
+              revisar continuamente esta página para asegurarse que está de acuerdo con dichos
+              cambios.
+            </p>
+
+            <h4>INFORMACIÓN QUE ES RECOGIDA</h4>
+            <p>
+              Nuestro sitio web podrá recoger información personal por ejemplo: Nombre, información
+              de contacto como su dirección de correo electrónica e información demográfica. Así
+              mismo cuando sea necesario podrá ser requerida información específica para procesar
+              algún pedido o realizar una entrega o facturación.
+            </p>
+
+            <h4>USO DE LA INFORMACIÓN RECOGIDA</h4>
+            <p>
+              Nuestro sitio web emplea la información con el fin de proporcionar el mejor servicio
+              posible, particularmente para mantener un registro de usuarios, de pedidos en caso que
+              aplique, y mejorar nuestros productos y servicios. Es posible que sean enviados
+              correos electrónicos periódicamente a través de nuestro sitio con ofertas especiales,
+              nuevos productos y otra información publicitaria que consideremos relevante para usted
+              o que pueda brindarle algún beneficio, estos correos electrónicos serán enviados a la
+              dirección que usted proporcione y podrán ser cancelados en cualquier momento.
+            </p>
+
+            <p>
+              MIRS ROBOTICS SOLUTION S.A. está altamente comprometido para cumplir con el compromiso
+              de mantener su información segura. Usamos los sistemas más avanzados y los
+              actualizamos constantemente para asegurarnos que no exista ningún acceso no
+              autorizado.
+            </p>
+
+            <h4>COOKIES</h4>
+            <p>
+              Una cookie se refiere a un fichero que es enviado con la finalidad de solicitar
+              permiso para almacenarse en su ordenador, al aceptar dicho fichero se crea y la cookie
+              sirve entonces para tener información respecto al tráfico web, y también facilita las
+              futuras visitas a una web recurrente. Otra función que tienen las cookies es que con
+              ellas las web pueden reconocerte individualmente y por tanto brindarte el mejor
+              servicio personalizado de su web.
+            </p>
+            <p>
+              Nuestro sitio web emplea las cookies para poder identificar las páginas que son
+              visitadas y su frecuencia. Esta información es empleada únicamente para análisis
+              estadístico y después la información se elimina de forma permanente. Usted puede
+              eliminar las cookies en cualquier momento desde su ordenador. Sin embargo las cookies
+              ayudan a proporcionar un mejor servicio de los sitios web, estás no dan acceso a
+              información de su ordenador ni de usted, a menos de que usted así lo quiera y la
+              proporcione directamente, visitas a una web . Usted puede aceptar o negar el uso de
+              cookies, sin embargo la mayoría de navegadores aceptan cookies automáticamente pues
+              sirve para tener un mejor servicio web. También usted puede cambiar la configuración
+              de su ordenador para declinar las cookies. Si se declinan es posible que no pueda
+              utilizar algunos de nuestros servicios.
+            </p>
+            <h4>ENLACES A TERCEROS</h4>
+            <p>
+              Este sitio web pudiera contener en laces a otros sitios que pudieran ser de su
+              interés. Una vez que usted de clic en estos enlaces y abandone nuestra página, ya no
+              tenemos control sobre al sitio al que es redirigido y por lo tanto no somos
+              responsables de los términos o privacidad ni de la protección de sus datos en esos
+              otros sitios terceros. Dichos sitios están sujetos a sus propias políticas de
+              privacidad por lo cual es recomendable que los consulte para confirmar que usted está
+              de acuerdo con estas.
+            </p>
+            <h4>CONTROL DE SU INFORMACIÓN PERSONAL</h4>
+
+            <p>
+              En cualquier momento usted puede restringir la recopilación o el uso de la información
+              personal que es proporcionada a nuestro sitio web. Cada vez que se le solicite
+              rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción
+              de recibir información por correo electrónico. En caso de que haya marcado la opción
+              de recibir nuestro boletín o publicidad usted puede cancelarla en cualquier momento.
+            </p>
+            <p>
+              Esta compañía no venderá, cederá ni distribuirá la información personal que es
+              recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden
+              judicial.
+            </p>
+            <p>
+              MIRS ROBOTICS SOLUTION S.A. Se reserva el derecho de cambiar los términos de la
+              presente Política de Privacidad en cualquier momento.
+            </p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>©2021 - MIRS ROBOTICS | All right reserved</p>
+        </div>
+      </div>
     </footer>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="/assets/fontawesome-free-5.15.4-web/js/all.min.js"></script>
-<script src="/slick-1.8.1/slick/slick.js"></script>
-<script src="/js/iteraciones.js"></script>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="/assets/fontawesome-free-5.15.4-web/js/all.min.js"></script>
+  <script src="/slick-1.8.1/slick/slick.js"></script>
+  <script src="/js/iteraciones.js"></script>
 
-<script src="/js/lightbox2-2.11.3/dist/js/lightbox.js"></script>
-<script>
+  <script src="/js/lightbox2-2.11.3/dist/js/lightbox.js"></script>
+  <script>
     function myFunction(x) {
-      x.classList.toggle("change");
+      x.classList.toggle('change');
     }
-    </script>
+  </script>
 
-<script>
+  <script>
     lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': false,
-      'positionFromTop': 50,
-      'showImageNumberLabel':false,
-      'disableScrolling':true,
-    })
-
-
-</script>
+      resizeDuration: 200,
+      wrapAround: false,
+      positionFromTop: 50,
+      showImageNumberLabel: false,
+      disableScrolling: true,
+    });
+  </script>
 </html>
