@@ -11,7 +11,7 @@
     <title>Nuestras Oficinas</title>
   </head>
   <body>
-    <header>
+    <!-- <header>
       <div class="header-contacto">
         <div class="email-number-header">
           <div>
@@ -36,17 +36,17 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
     <nav class="navigation-menu">
       <div class="logo-empresa">
-        <a href=""><img src="/assets/img/logomirs-header.svg" alt="MIRS" /></a>
+        <a href="/home.html"><img src="/assets/img/logomirs-header.svg" alt="MIRS" /></a>
       </div>
       <div class="desktop-links">
         <div class="links-header">
           <ul>
-            <li><a href="">Soluciones Robóticas</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="/soluciones-roboticas.html">Soluciones Robóticas</a></li>
+            <li><a href="/mirs-service.html">Servicios</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
           </ul>
         </div>
 
@@ -62,22 +62,33 @@
           <div class="menu-modal-container">
             <ul>
               <li>
-                <a href="">Acerca de Mirs <i class="fas fa-chevron-right"></i></a>
+                <a href="/filosofia-mirs.html"
+                  >Acerca de Mirs <i class="fas fa-chevron-right"></i
+                ></a>
               </li>
               <li>
-                <a href="">Noticias <i class="fas fa-chevron-right"></i></a>
+                <a href="/noticias.html">Noticias <i class="fas fa-chevron-right"></i></a>
               </li>
+              <!-- <li>
+                  <a href="/"
+                    >Centro de desarrollo Robótico <i class="fas fa-chevron-right"></i
+                  ></a>
+                </li> -->
               <li>
-                <a href="">Centro de desarrollo Robótico <i class="fas fa-chevron-right"></i></a>
+                <a href="/carrers.html"
+                  >Trabaja con nosotros <i class="fas fa-chevron-right"></i
+                ></a>
               </li>
               <li class="item-menu-mobile">
-                <a href="">Soluciones Robóticas <i class="fas fa-chevron-right"></i></a>
+                <a href="/soluciones-roboticas.html"
+                  >Soluciones Robóticas <i class="fas fa-chevron-right"></i
+                ></a>
               </li>
               <li class="item-menu-mobile">
-                <a href="">Servicios <i class="fas fa-chevron-right"></i></a>
+                <a href="/mirs-service.html">Servicios <i class="fas fa-chevron-right"></i></a>
               </li>
               <li class="item-menu-mobile">
-                <a href="">Contacto <i class="fas fa-chevron-right"></i> </a>
+                <a href="/contacto.html">Contacto <i class="fas fa-chevron-right"></i> </a>
               </li>
             </ul>
           </div>
@@ -85,44 +96,38 @@
       </div>
     </nav>
     <main>
-      <section style="position: relative">
+      <section style="position: relative; min-height: 60px; background: #000">
         <div class="menu-banner-principal">
-          <ul>
-            <li><a href="">Filosofía MIRS</a></li>
-            <li><a href="">Oficinas MIRS</a></li>
-            <li><a href="">Clientes</a></li>
-            <li><a href="" class="active">Seguridad</a></li>
-            <li><a href="">Compliance</a></li>
+          <ul id="menu-menu-acerca-de-mirs">
+            <li><a href="/filosofia-mirs.html">Filosofía MIRS</a></li>
+            <li><a href="/nuestras-oficinas.html" class="active">Oficinas MIRS</a></li>
+            <li><a href="/clientes.html">Clientes</a></li>
+            <li><a href="/seguridad.html">Seguridad</a></li>
+            <li><a href="/compliance.html">Compliance</a></li>
           </ul>
-        </div>
-        <div class="banner-principal-estatico">
-          <div class="banner-item">
-            <div class="img-banner-principal">
-              <img src="/assets/img/imagen-banner-principal.png" alt="banner principal" />
-            </div>
-          </div>
         </div>
       </section>
       <section>
         <article>
           <div class="titulo-seccion">
-            <h1>Nuestras oficinas</h1>
+            <h1>Oficinas en el mundo</h1>
           </div>
           <div class="texto-titulo">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliquat enim ad minim.
+              <span>¿Quiere saber más sobre nuestra empresa o nuestros productos?</span> <br />
+              Estaremos encantados de asesorarle sobre nuestros sistemas y componentes de sistemas.
+              Esperamos su llamado o mensaje y nos pondremos en contacto con lo antes posible.
             </p>
           </div>
           <div class="contenedor">
             <div class="mapa-ubicaciones dragscroll">
               <img src="/assets/img/Map.png" alt="" />
 
-              <span class="paises-points chile span-pais-activo"></span>
-              <span class="paises-points peru"></span>
-              <span class="paises-points alemania"></span>
-              <span class="paises-points usa"></span>
-              <span class="paises-points australia"></span>
+              <span class="paises-points chile span-pais-activo" data-pais="chile"></span>
+              <span class="paises-points peru" data-pais="peru"></span>
+              <span class="paises-points alemania" data-pais="alemania"></span>
+              <span class="paises-points usa" data-pais="estados-unidos"></span>
+              <span class="paises-points australia" data-pais="australia"></span>
 
               <div class="pais-info card-chile pais-info-activo">
                 <h3>Chile</h3>

@@ -68,11 +68,7 @@ img {
   justify-content: center !important;
 }
 
-label:not(
-    .contenedor-anonimo > label,
-    .contenedor-anonimo span > label,
-    .contenedor-checkbox div span > label
-  ) {
+label:not(.contenedor-anonimo > label, .contenedor-checkbox div > label) {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -718,6 +714,10 @@ a {
   margin-bottom: 30px;
 }
 
+.slick-list {
+  width: 100%;
+}
+
 .titulo-clientes {
   text-align: center;
   margin-top: 130px;
@@ -984,7 +984,7 @@ a {
 
 .contenedor-grid li,
 .mision-vision-valores li {
-  list-style-image: url(/assets/img/check.png);
+  list-style-image: url(../assets/img/check.png);
 }
 
 .texto-izquierda h2,
@@ -1298,7 +1298,7 @@ a {
   margin: 30px 0px;
 }
 
-.contenedor-flex div:not(.iti__selected-flag, .iti__flag-container, .sk-chase, .sk-chase-dot) {
+.contenedor-flex div:not(.iti__selected-flag, .iti__flag-container) {
   width: 100%;
   position: relative;
 }
@@ -1321,7 +1321,7 @@ a {
   }
 }
 
-.contenedor-flex div > div:not(.sk-chase, .sk-chase-dot) {
+.contenedor-flex div > div {
   margin: 20px;
 }
 
@@ -1351,6 +1351,7 @@ a {
 }
 
 .contenedor-checkbox div label {
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
@@ -2420,7 +2421,6 @@ a {
   gap: 30px;
   justify-items: center;
   align-items: center;
-  height: 100%;
   max-width: 1180px;
   margin: 0px auto;
   padding: 30px;
@@ -3247,10 +3247,6 @@ ul.page-numbers {
 
 @media screen and (max-width: 560px) {
   /*home mobile */
-
-  .noticias-card .noticia-img img {
-    width: 250px;
-  }
 
   .categoria-noticias {
     justify-content: unset;

@@ -11,7 +11,7 @@
     <title>carrers</title>
   </head>
   <body>
-    <header>
+    <!-- <header>
       <div class="header-contacto">
         <div class="email-number-header">
           <div>
@@ -36,17 +36,17 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
     <nav class="navigation-menu">
       <div class="logo-empresa">
-        <a href=""><img src="/assets/img/logomirs-header.svg" alt="MIRS" /></a>
+        <a href="/home.html"><img src="/assets/img/logomirs-header.svg" alt="MIRS" /></a>
       </div>
       <div class="desktop-links">
         <div class="links-header">
           <ul>
-            <li><a href="">Soluciones Robóticas</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="/soluciones-roboticas.html">Soluciones Robóticas</a></li>
+            <li><a href="/mirs-service.html">Servicios</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
           </ul>
         </div>
 
@@ -57,26 +57,66 @@
             <div class="bar3"></div>
           </div>
         </div>
+
+        <div class="menu-modal">
+          <div class="menu-modal-container">
+            <ul>
+              <li>
+                <a href="/filosofia-mirs.html"
+                  >Acerca de Mirs <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="/noticias.html">Noticias <i class="fas fa-chevron-right"></i></a>
+              </li>
+              <!-- <li>
+                <a href="/"
+                  >Centro de desarrollo Robótico <i class="fas fa-chevron-right"></i
+                ></a>
+              </li> -->
+              <li>
+                <a href="/carrers.html"
+                  >Trabaja con nosotros <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li class="item-menu-mobile">
+                <a href="/soluciones-roboticas.html"
+                  >Soluciones Robóticas <i class="fas fa-chevron-right"></i
+                ></a>
+              </li>
+              <li class="item-menu-mobile">
+                <a href="/mirs-service.html">Servicios <i class="fas fa-chevron-right"></i></a>
+              </li>
+              <li class="item-menu-mobile">
+                <a href="/contacto.html">Contacto <i class="fas fa-chevron-right"></i> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
     <main>
-      <section style="position: relative">
-        <!-- <div class="menu-banner-principal">
-                <ul>
-                    <li ><a href="">Filosofía MIRS</a></li>
-                    <li><a href="" >Compliance</a></li>
-                    <li><a href="" class="active">Seguridad</a></li>
-                    <li><a href="">Clientes</a></li>
-                    <li><a href="">Oficinas MIRS</a></li>
-                </ul>
-            </div> -->
-        <div class="banner-principal-estatico">
+      <section>
+        <div class="banner-principal">
           <div class="banner-item">
             <div class="img-banner-principal">
-              <img src="/assets/img/imagen-banner-principal.png" alt="banner principal" />
+              <video
+                width="100%"
+                height="100%"
+                autoplay
+                muted
+                loop
+                poster="/assets/img/imagen-banner-principal.png"
+                playsinline
+              >
+                <source src="/assets/img/Banner-Laminas-Iniciales-Video-1.mp4" type="video/mp4" />
+
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div class="texto-banner-principal">
-              <h1>Trabaja en MIRS</h1>
+              <h1>Soluciones Robóticas para la Minería e Industria Pesada</h1>
+              <a href="" class="cta-button"> Ir a soluciones </a>
             </div>
           </div>
         </div>
@@ -111,11 +151,11 @@
               <div class="titulo-seccion">
                 <h4>Trabaja con nosotros</h4>
               </div>
-              <form action="">
+              <form action="" id="formulario">
                 <div class="contenedor-flex">
                   <div>
                     <label for="nombre-y-apellido">nombre y apellido</label>
-                    <input type="text" name="nombre-y-apellido" id="nombre-y-apellido" />
+                    <input type="text" name="nombre-y-apellido" id="nombre" />
                   </div>
                 </div>
 
@@ -326,6 +366,7 @@
   <script src="/slick-1.8.1/slick/slick.js"></script>
   <script src="/js/iteraciones.js"></script>
   <script src="/js/cargacv.js"></script>
+  <script src="/js/validacion.js"></script>
   <script>
     function myFunction(x) {
       x.classList.toggle('change');

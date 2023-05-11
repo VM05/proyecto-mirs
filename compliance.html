@@ -11,42 +11,17 @@
     <title>Compliance</title>
   </head>
   <body>
-    <header>
-      <div class="header-contacto">
-        <div class="email-number-header">
-          <div>
-            <a href=""> <i class="fas fa-envelope" style="margin-right: 10px"></i>INFO@MAIL.COM </a>
-          </div>
-          <div>
-            <a href="">
-              <i class="fas fa-phone-alt" style="margin-right: 10px"></i> + 56 2 2663 5
-            </a>
-          </div>
-        </div>
-        <div class="socials-header">
-          <div>
-            <a href="">
-              <i class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <div>
-            <a href="">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
+   
     <nav class="navigation-menu">
       <div class="logo-empresa">
-        <a href=""><img src="/assets/img/logomirs-header.svg" alt="MIRS" /></a>
+        <a href="/home.html"><img src="/assets/img/logomirs-header.svg" alt="MIRS" /></a>
       </div>
       <div class="desktop-links">
         <div class="links-header">
           <ul>
-            <li><a href="">Soluciones Robóticas</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="/soluciones-roboticas.html">Soluciones Robóticas</a></li>
+            <li><a href="/mirs-service.html">Servicios</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
           </ul>
         </div>
 
@@ -62,22 +37,33 @@
           <div class="menu-modal-container">
             <ul>
               <li>
-                <a href="">Acerca de Mirs <i class="fas fa-chevron-right"></i></a>
+                <a href="/filosofia-mirs.html"
+                  >Acerca de Mirs <i class="fas fa-chevron-right"></i
+                ></a>
               </li>
               <li>
-                <a href="">Noticias <i class="fas fa-chevron-right"></i></a>
+                <a href="/noticias.html">Noticias <i class="fas fa-chevron-right"></i></a>
               </li>
+              <!-- <li>
+                <a href="/"
+                  >Centro de desarrollo Robótico <i class="fas fa-chevron-right"></i
+                ></a>
+              </li> -->
               <li>
-                <a href="">Centro de desarrollo Robótico <i class="fas fa-chevron-right"></i></a>
+                <a href="/carrers.html"
+                  >Trabaja con nosotros <i class="fas fa-chevron-right"></i
+                ></a>
               </li>
               <li class="item-menu-mobile">
-                <a href="">Soluciones Robóticas <i class="fas fa-chevron-right"></i></a>
+                <a href="/soluciones-roboticas.html"
+                  >Soluciones Robóticas <i class="fas fa-chevron-right"></i
+                ></a>
               </li>
               <li class="item-menu-mobile">
-                <a href="">Servicios <i class="fas fa-chevron-right"></i></a>
+                <a href="/mirs-service.html">Servicios <i class="fas fa-chevron-right"></i></a>
               </li>
               <li class="item-menu-mobile">
-                <a href="">Contacto <i class="fas fa-chevron-right"></i> </a>
+                <a href="/contacto.html">Contacto <i class="fas fa-chevron-right"></i> </a>
               </li>
             </ul>
           </div>
@@ -88,18 +74,29 @@
       <section style="position: relative">
         <div class="menu-banner-principal">
           <ul>
-            <li><a href="">Filosofía MIRS</a></li>
-            <li><a href="">Oficinas MIRS</a></li>
-            <li><a href="">Clientes</a></li>
-            <li><a href="">Seguridad</a></li>
-            <li><a href="" class="active">Compliance</a></li>
+            <li><a href="/filosofia-mirs.html" >Filosofía MIRS</a></li>
+            <li><a href="/nuestras-oficinas.html">Oficinas MIRS</a></li>
+            <li><a href="/clientes.html">Clientes</a></li>
+            <li><a href="/seguridad.html">Seguridad</a></li>
+            <li><a href="/compliance.html" class="active">Compliance</a></li>
           </ul>
         </div>
         <div class="banner-principal-estatico">
           <div class="banner-item">
             <div class="img-banner-principal">
-              <img src="/assets/img/imagen-banner-principal.png" alt="banner principal" />
-            </div>
+              <video
+                width="100%"
+                height="100%"
+                autoplay
+                muted
+                loop
+                poster="/assets/img/imagen-banner-principal.png"
+                playsinline
+              >
+                <source src="/assets/img/Banner-Laminas-Iniciales-Video-1.mp4" type="video/mp4" />
+
+                Your browser does not support the video tag.
+              </video>
             <div class="texto-banner-principal">
               <h1>Canal de Denuncias Compliance</h1>
             </div>
@@ -109,19 +106,29 @@
       <section>
         <div class="contenedor">
           <div class="form-container">
-            <form action="">
+            <form action="" id="formulario">
               <div class="titulo-datos-emisor">
                 <h2>Datos del emisor:</h2>
               </div>
 
               <div class="contenedor-anonimo">
-                <label for="">Anonimo</label>
+                <div class="tooltip">
+                  <p>
+                    Si seleccionas la opción Anónimo, los datos ingresados solo serán visibles para
+                    el Fiscal de MIRS. En ningún caso la información tendrá carácter ni uso publico.
+                  </p>
+                </div>
+                <label for=""><span class="informacion-emisor">i</span>Anonimo</label>
 
-                <label for="si">Si</label>
-                <input type="radio" name="respuesta-emisor" id="si" value="si" />
+                <label for="si" style="margin-left: 10px">
+                  <input type="radio" name="respuesta-emisor" id="si" value="si" />
+                  Si
+                </label>
 
-                <label for="no">No</label>
-                <input type="radio" name="respuesta-emisor" id="no" value="no" />
+                <label for="no" style="margin-left: 10px">
+                  <input type="radio" name="respuesta-emisor" id="no" value="no" />
+                  No</label
+                >
               </div>
 
               <div class="contenedor-flex">
@@ -197,55 +204,70 @@
                 >
 
                 <div>
-                  <input type="checkbox" name="" id="lavado-de-activos" />
                   <label for="lavado-de-activos"
-                    >Lavado de activos/ Financiamiento del Terrorismo / Cohecho a funcionarios
-                    públicos nacionales o extranjeros / Receptación
+                    ><input type="checkbox" name="" id="lavado-de-activos" />Lavado de activos/
+                    Financiamiento del Terrorismo / Cohecho a funcionarios públicos nacionales o
+                    extranjeros / Receptación
                   </label>
                 </div>
 
                 <div>
-                  <input type="checkbox" name="" id="administracion-desleal" />
                   <label for="administracion-desleal"
-                    >Administración Desleal / Negociación Incompatible / Corrupción entre Privados /
-                    Apropiación Indebida</label
+                    ><input type="checkbox" name="" id="administracion-desleal" />Administración
+                    Desleal / Negociación Incompatible / Corrupción entre Privados / Apropiación
+                    Indebida</label
                   >
                 </div>
               </div>
-
-              <label for="">Relaciones Laborales y Ambientes de trabajo</label>
               <div class="contenedor-checkbox">
+                <label for="">Relaciones Laborales y Ambientes de trabajo</label>
+
                 <div>
-                  <input type="checkbox" name="" id="conductas-discriminatorias" /><label
-                    for="conductas-discriminatorias"
-                    >Conductas Discriminatorias</label
+                  <label for="conductas-discriminatorias"
+                    ><input type="checkbox" name="" id="conductas-discriminatorias" />Conductas
+                    Discriminatorias</label
                   >
                 </div>
 
                 <div>
-                  <input type="checkbox" name="" id="acoso-laboral" /><label for="acoso-laboral"
-                    >Acoso laboral</label
+                  <label for="acoso-laboral"
+                    ><input type="checkbox" name="" id="acoso-laboral" />Acoso laboral</label
                   >
                 </div>
 
                 <div>
-                  <input type="checkbox" name="" id="acoso-sexual" /><label for="acoso-sexual"
-                    >Acoso sexual</label
+                  <label for="acoso-sexual">
+                    <input type="checkbox" name="" id="acoso-sexual" />Acoso sexual</label
                   >
                 </div>
               </div>
-
-              <label for="">Conductas Contrarias a las Políticas Anticorrupción</label>
 
               <div class="contenedor-checkbox">
+                <label for="">Conductas Contrarias a las Políticas Anticorrupción</label>
                 <div>
-                  <input type="checkbox" name="" id="sobornos" /><label for="sobornos"
-                    >Sobornos y pagos indebidos</label
+                  <label for="sobornos"
+                    ><input type="checkbox" name="" id="sobornos" />Sobornos y pagos
+                    indebidos</label
                   >
                 </div>
               </div>
 
-              <button type="submit" class="submit-form">enviar</button>
+              <div class="contenedor-flex botones-form-trabaja-nosotros">
+                <div>
+                  <label for="curriculum" class="boton-carga-cv">Subir Archivos</label>
+                  <input
+                    size="40"
+                    id="curriculum"
+                    multiple
+                    value="Upload"
+                    type="file"
+                    name="archivos[]"
+                  />
+                </div>
+                <div>
+                  <button type="submit" class="submit-form work-form" disabled>Enviar</button>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -413,6 +435,7 @@
   <script src="/slick-1.8.1/slick/slick.js"></script>
   <script src="/js/iteraciones.js"></script>
   <script src="/js/dragscroll.js"></script>
+  <script src="/js/validacion.js"></script>
   <script>
     function myFunction(x) {
       x.classList.toggle('change');
